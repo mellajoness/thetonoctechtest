@@ -1,0 +1,86 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Manrope;
+  src: url(../../fonts/Manrope-Regular.ttf);
+}
+
+.background {
+  background: #0a2640;
+  padding: 5rem;
+}
+.storyMain {
+  width: 80%;
+  margin: auto;
+}
+.ourstory {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+}
+.storyHeader {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 48px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 1rem;
+}
+.desc {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+  padding-top: 1.8rem;
+}
+.row {
+  display: flex;
+  padding-top: 2rem;
+}
+.icon {
+  width: 110px;
+}
+.contentDiv {
+  padding-left: 1rem;
+}
+.subTitle {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+}
+.title {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 28px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+}
+.top {
+  padding-top: 1.5rem;
+}

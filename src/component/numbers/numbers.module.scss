@@ -1,0 +1,59 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Manrope;
+  src: url(../../fonts/Manrope-Regular.ttf);
+}
+.background {
+//   width: 100vw;
+  background: #0a2640;
+  padding: 4rem 5rem;
+}
+.ourNumbers {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  text-align: center;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.title{
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 58px;
+    text-align: center;
+    color: #f1f1f1;
+    text-decoration: none;  
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 33.3%;
+    padding: 3rem  5rem 0em 5em;
+}
+.time{
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 58px;
+    color: #4FE9A4;
+    text-decoration: none;
+}
+.desc{
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 58px;
+    color: #f1f1f1;
+    text-decoration: none;
+}

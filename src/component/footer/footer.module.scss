@@ -1,0 +1,241 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Manrope;
+  src: url(../../fonts/Manrope-Regular.ttf);
+}
+.parent {
+  padding: 3rem 5rem;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 288px;
+  background-color: #0a2640;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.curvedCorner {
+  position: absolute;
+  top: -148px;
+  right: -72px;
+  width: 513px;
+  height: 322px;
+  background-color: #1c3d5b;
+  border-bottom-left-radius: 314px;
+  border-bottom-right-radius: 126px;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: white;
+}
+.title {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 48px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 1rem;
+}
+.inputBtnRow {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+.input {
+  background-color: white;
+  border-radius: 40px;
+  padding: 0em 1em;
+  border: none;
+  height: 50px;
+  color: #000000;
+  width: 40%;
+  font-family: "OpenSans";
+}
+.btn {
+  background-color: #65e4a3;
+  border-radius: 40px;
+  padding: 0em 1em;
+  border: none;
+  height: 50px;
+  color: #0a2640;
+  width: 35%;
+  font-family: "OpenSans";
+  font-weight: 700;
+  cursor: pointer;
+}
+.hireBtn {
+  background-color: #65e4a3;
+  border-radius: 7px;
+  padding: 0.3em 0.5em;
+  border: none;
+  color: #0a2640;
+  font-family: "OpenSans";
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.6rem;
+  height: fit-content;
+  margin-top: 1.2rem;
+}
+
+.socialParent {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.icons {
+  width: 60px;
+  height: 60px;
+}
+.LowerfooterParent {
+  padding: 2em 0em;
+}
+.parentRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+.rowOne {
+  width: 40%;
+}
+.rowTwo {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5em;
+}
+.logoParent {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logoText {
+  padding: 0em 2em 0em 1em;
+}
+.ultainfinity {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 28px;
+  color: #ffffff;
+}
+.global {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 28px;
+  color: #cccada;
+}
+.footerdesc {
+  font-family: "Opensans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+  padding-top: 1em;
+}
+.contentTitle {
+  font-family: "Opensans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+  padding-top: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link {
+  text-decoration: none;
+}
+.section {
+  width: 20%;
+}
+.sectionTwo {
+  width: 20%;
+}
+.sectionThree {
+  // width:22%
+}
+.top {
+  padding-top: 1.5em;
+}
+.borderLine {
+  border: 0.86px solid white;
+  width: 100%;
+  margin-top: 2em;
+}
+.iconsDiv {
+  height: 37px;
+  width: 37px;
+  border: 2px solid white;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0em 0.5em;
+}
+.careerRow {
+  display: flex;
+  gap: 0.3em;
+}
+@media screen and (max-width: 870px) {
+  .rowOne {
+    width: 100%;
+  }
+  .parentRow {
+    display: grid;
+    justify-content: inherit;
+  }
+  .rowTwo {
+    width: 100%;
+    padding-left: 0em;
+  }
+  .desc {
+    padding: 0em 5em;
+  }
+}
+@media screen and (max-width: 650px) {
+  .upperfooterParent {
+    padding: 2em 1em;
+  }
+  .LowerfooterParent {
+    padding: 2em 1em;
+  }
+  .desc {
+    padding: 0em 3em;
+  }
+  .iconsDiv {
+    height: 22px;
+    width: 22px;
+  }
+  .icons {
+    font-size: 1em;
+  }
+  .section {
+    width: 50%;
+  }
+  .sectionTwo {
+    width: 50%;
+  }
+  .sectionThree {
+    width: 50%;
+  }
+  .rowTwo {
+    flex-wrap: wrap;
+  }
+}

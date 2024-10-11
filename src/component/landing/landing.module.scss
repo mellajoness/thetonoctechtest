@@ -1,0 +1,248 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Manrope;
+  src: url(../../fonts/Manrope-Regular.ttf);
+}
+.background {
+  background: #0a2640;
+  padding-bottom: 9rem;
+}
+.header {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 5em;
+}
+.logoParent {
+  display: flex;
+  cursor: pointer;
+}
+.logo {
+  height: 30px;
+}
+.pagesDiv {
+  display: flex;
+  gap: 2em;
+}
+.btn {
+  border-radius: 24px;
+  background: white;
+  padding: 0.5em 2em;
+  color: #0a2640;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-family: "OpenSans";
+}
+.contentDiv {
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.title {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+}
+.about {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 1.8rem;
+}
+.content {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.063rem;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  padding-top: 0em;
+}
+.top {
+  padding-top: 2rem;
+}
+.desc {
+  font-family: "Opensans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 25px;
+  text-align: center;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.pagesDiv {
+  gap: 1em;
+}
+.title:hover {
+  color: #f5d281;
+}
+.btnDiv {
+  padding-left: 2em;
+}
+.menuDiv {
+  cursor: pointer;
+}
+.menu {
+  color: white;
+  font-size: 2em;
+  display: none;
+}
+.modalParent {
+  background-color: #161616;
+}
+.modalMenu {
+  display: grid;
+}
+.modalClose {
+  display: flex;
+  justify-content: flex-end;
+}
+.modalMenufirst {
+  display: grid;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0px 0px 16px 16px;
+}
+.dropDownRow {
+  display: flex;
+  align-items: center;
+  margin: 0.5em 1em;
+}
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.dropIcon {
+  width: 50px;
+}
+.dropIconTwo {
+  width: 30px;
+}
+.logoDrodownDiv {
+  background: #161616;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 60px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+}
+.logoTitleDiv {
+  background: #fafaff;
+  border-radius: 0px 16px 16px 0px;
+  margin-left: 0.2em;
+  height: 60px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 0em 1em;
+  cursor: pointer;
+}
+.dropDowntitle {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #1e252b;
+}
+.dropDowntitle:hover {
+  color: #b88717;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+@media screen and (max-width: 1230px) {
+  .ultainfinity {
+    display: none;
+  }
+  .logoText {
+    display: none;
+  }
+  .btnDiv {
+    padding-left: 0em;
+  }
+}
+@media screen and (max-width: 990px) {
+  .title {
+    display: none;
+  }
+  .titleModal {
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7em;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .titleModal:hover {
+    color: #f5d281;
+  }
+  .menu {
+    display: inline;
+    cursor: pointer;
+  }
+  .header {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header {
+    padding: 0em 3em;
+  }
+}
+@media screen and (max-width: 414px) {
+  .header {
+    padding: 0em 1em;
+  }
+}

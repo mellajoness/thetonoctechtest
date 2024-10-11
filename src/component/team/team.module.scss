@@ -1,0 +1,82 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Manrope;
+  src: url(../../fonts/Manrope-Regular.ttf);
+}
+.parent {
+  padding: 3rem 5rem;
+}
+.storyMain {
+  width: 80%;
+  margin: auto;
+}
+.ourstory {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+}
+.storyHeader {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 48px;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 1rem;
+}
+.desc {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+  padding-top: 1.8rem;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+}
+.box{
+    width: 32%;
+    margin-top: 2rem;
+}
+.name{
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 1rem;  
+}
+.role{
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #777777;
+    cursor: pointer;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}

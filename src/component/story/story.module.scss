@@ -1,0 +1,102 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Manrope;
+  src: url(../../fonts/Manrope-Regular.ttf);
+}
+.parent {
+  padding: 0em 5rem 5rem 5rem;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  bottom: 6rem;
+  margin-bottom: -6rem;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.leftImages,
+.rightImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 40px;
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; // Adjust based on design needs
+    object-fit: cover;
+  }
+}
+
+.middleImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  //   top: 1rem;
+  img {
+    width: auto;
+    height: 100%; // This ensures the middle image matches the height of left and right images
+    //   max-height: 300px; // Adjust based on design needs
+    object-fit: cover;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px; // optional for styling
+}
+.storyMain {
+  width: 80%;
+  margin: auto;
+}
+.ourstory {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+}
+.storyHeader {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 48px;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 1rem;
+}
+.desc {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 1em;
+  padding-top: 1.8rem;
+}
